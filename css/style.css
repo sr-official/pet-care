@@ -1,0 +1,334 @@
+/* Nav bar starts here  */
+#top_nav {
+    background-color: #daab00;
+    padding: 0 8%;
+    font-family: 'Libre Baskerville', serif;
+}
+.nav-link {
+    color: rgb(255 255 255);
+    font-size: 25px;
+    padding-left: 25px !important;
+    font-weight: 500;
+}
+#search_box {
+    background-color: #fcc302;
+    border : 0px;
+    border-radius: 0;
+    position: relative;
+    left: 47px;
+    box-shadow: 5px 10px 11px 0px #00000021;
+}
+#search_box::placeholder {
+    color : white;
+}
+#search_btn {
+    position: relative;
+    z-index: 99;
+    background-color: #00bec9;
+    color : white;
+    border : 0px;
+    border-radius: 0px;
+}
+@media only screen and (max-width : 768px) {
+    #search_form {
+        margin-bottom: 30px;
+        margin-top: 20px;
+        position: relative;
+        left : -20px;
+    }
+}
+@media only screen and (max-width : 320px)  {
+    #top_nav {
+        padding : 0px;
+    }
+    .img_fluid {
+        width: 160px;
+    }  
+}
+/* Nav bar ends here  */
+/* Banner starts here  */
+#banner {
+    background-color: #fcc302;
+    padding-bottom: 20px;
+}
+#banner-text h1 {
+    color : white;
+    font-size: 70px;
+    margin-top: 100px;
+    font-weight: 800;
+    font-family: 'Fira Sans', sans-serif;
+}
+#banner-text p {
+    color : white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+#banner-btn1 {
+    background-color: #00bec9;
+    border : 2px solid #00bec9;
+    color : white;
+    font-weight: 700;
+    font-family: 'Belanosima', sans-serif;
+}
+#banner-btn2 {
+    color : white;
+    border : 2px solid white;
+    margin-left: 15px;
+    font-weight: 700;
+    font-family: 'Belanosima', sans-serif;
+}
+@media only screen and (max-width : 1300px) {
+    #banner-text h1 {
+        font-size: 50px;
+    }
+    #banner {
+        padding-bottom: 70px;
+    }
+}
+@media only screen and (max-width : 900px){
+    #banner-text h1 {
+        font-size: 40px;
+    }
+    #banner-img img {
+        padding-top: 70px;
+    }
+}
+/* Banner ends here  */
+/* Service section starts here  */
+#service-text{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+#service-text h1 {
+    font-weight: 700;
+    font-family: 'Libre Baskerville', serif;
+}
+#service-text p {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+#service-btn {
+    background-color: #fcc202bd;
+    color : rgb(125, 13, 71);
+    border : 2px solid #fcc20284;
+    font-weight: 700;
+    font-family: 'Belanosima', sans-serif;
+}
+#service-img {
+    padding: 5%;
+}
+@media only screen and (max-width : 900px){
+    #service-text h1 {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width : 768px){
+    #service-img {
+        padding-top: 10%;
+    }
+}
+/* Service section ends here  */
+/* Care section starts here  */
+#care-section {
+    background-image: linear-gradient(#30fc0289, #00da95a4  );
+}
+#care-text h1 {
+    margin-top: 4%;
+    color : rgba(0, 0, 0, 0.76);
+    /* margin-bottom: ; */
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Libre Baskerville', serif;
+}
+#care-section p {
+    color : rgba(0, 0, 0, 0.477);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-bottom: 2%;
+}
+.care-info h3 {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    color : rgba(255, 102, 0, 0.781);
+    font-weight: 700;
+    font-family: 'Merriweather', serif;
+}
+.care-info p {
+    margin-bottom: 5%;
+    font-size: 18px;
+    color : rgba(18, 1, 1, 0.546) !important;
+    font-weight: 400;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}
+.care-wrap {
+    margin-bottom: 2%;
+}
+@media only screen and (max-width : 768px){
+    #care-section-img img {
+        width : 100%;
+        display : block;
+    }
+}
+/* Care section ends here  */
+/* Vet section starts here  */
+#vet-care h1 {
+    margin-top: 5%;
+    margin-bottom: 1%;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Libre Baskerville', serif;
+}
+#vet-care p {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-bottom: 5%;
+}
+.vet-info h4 {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-weight: 700;
+    font-family: 'Merriweather', serif;
+}
+.vet-info h5 {
+    margin-bottom: 3%;
+    text-transform: uppercase;
+    font-weight: 400;
+    /* font-weight: 700; */
+    font-family: 'Ysabeau SC', sans-serif;
+}
+.vet-info img {
+    margin-right: 4%;
+    color : white;
+    background-color: #daac00;
+    border-radius: 50%;
+}
+.vet-info {
+    margin-bottom: 10%;
+}
+@media only screen and (max-width : 1020px) {
+    .vet-info img {
+        height: 20px;
+        width: 20px;
+    }
+}
+@media only screen and (max-width : 768px){
+    .vet-img {
+        width : 100%;
+        display : block;
+    }
+}
+/* Vet section ends here  */
+/* Recent section starts here  */
+#recent-text h1 {
+    margin-top: 5%;
+    margin-bottom: 1%;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Libre Baskerville', serif;
+}
+#recent-text p {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-bottom: 2%;
+}
+.card-title {
+    font-weight: 700;
+}
+.date {
+    color : rgb(13, 223, 156);
+    font-weight: 600;
+}
+.card-text {
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.recent-btn {
+    margin-bottom: 0;
+    margin-left: -15px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color : rgba(15, 109, 217, 0.669)
+}
+.recent-img img{
+    width : 100%;
+}
+@media only screen and (max-width : 768px){
+    .recent-img img {
+        width : 100%;
+        display : block;
+    }
+}
+/* Recent section ends here  */
+/* Footer section starts here  */
+#footer-section {
+    padding-top: 80px;
+    padding-bottom: 60px !important;
+}
+.footer-info h4 {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.footer-info a, .footer-info p {
+    font-weight: 600;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.footer-info p {
+    font-weight: 400;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+#footer-span {
+    display: inline-block;
+    background-color: #daac00;
+    width: 100%;
+    height: 30%;
+    margin-bottom: 2%;
+}
+#footer-icon {
+    right: 4%;
+    top: 49%;
+    background: skyblue;
+    padding : 10px 10px;
+}
+.footer-social {
+        margin-right: 4%;
+        color : rgb(8, 0, 0);
+        background-color: rgba(255, 255, 255, 0.034);
+        border-radius: 50%;
+}
+@media only screen and (max-width : 1020px) {
+    .footer-social {
+        height: 20px;
+        width: 20px;
+    }
+    
+}
+
+@media only screen and (max-width : 768px){
+    #footer-section {
+        padding: 10%;
+    }
+    #footer-span {
+        width: 50%;
+    }
+    #footer-right {
+       text-align: left !important;
+    }
+}
+@media only screen and (max-width : 576px) {
+    #footer-section {
+        margin-top: 30%;
+    }
+}
+/* Footer section ends here  */

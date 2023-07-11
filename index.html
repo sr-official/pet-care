@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is a practice project">
+    <meta name="keywords" content="html, psd to html, practice web design">
+    <meta name="author" content="MD saydur Rahman Jibon">
+    <title>Assignment-11</title>
+    <!-- Google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Bree+Serif&family=Fira+Sans:ital,wght@0,100;0, 200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Sans+Narrow:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ysabeau+SC:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+    <!-- Bootstrap css cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- Bootstrap icon cdn link  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Style css  -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- Nav bar starts here -->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="top_nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="logo" class="img_fluid">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search" id="search_form">
+              <input class="form-control me-2 " type="search" placeholder="Search..." aria-label="Search" id="search_box">
+              <button class="btn btn-outline-success" type="submit" id="search_btn"><i class="bi bi-search"></i></button>
+            </form>
+          </div>
+        </div>
+    </nav>
+      <!-- Nav bar ends here  -->
+      <!-- Container starts here  -->
+      <div class="container-fluid">
+        <!-- Banner starts here  -->
+    <div class="row justify-content-center" id="banner">
+            <div class="col-md-6 col-11" id="banner-text" >
+                <h1>First I wanted to be <br>
+                    a veterinarian
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quibusdam, asperiores sit eius nostrum vel vitae.</p>
+                <button type="button" class="btn" id="banner-btn1">Contact Us</button>
+                <button type="button" class="btn" id="banner-btn2">Our Services</button>
+            </div>
+            <div class="col-md-4 d-none d-md-block" id="banner-img">
+                <img src="images/cute-dog.png" alt="banner" class="img_fluid" style="height: 450px;">
+            </div>
+    </div>
+      <!-- Banner ends here  -->
+      <!-- Service section starts here -->
+    <div class="row justify-content-center">
+          <div class="col-md-5 col-11" id="service-text">
+            <h1>As a veterinarian and <br>
+              lover of animals.
+            </h1>
+            <p>Lorem Ipsum available but the majoty suffered alteration in some form, by humour randomised words.
+            </p>
+            <button type="button" class="btn" id="service-btn">Our Service</button>
+          </div>
+          <div class="col-md-5" id="service-img">
+            <img src="images/service-img.png" alt="Service image" class="img-fluid">
+          </div>
+    </div>
+     <!-- Service section ends here -->
+     <!-- Care section starts here  -->
+     <div class="row justify-content-center" id="care-section">
+      <div class="col-md-10 text-center text-white" id="care-text">
+        <h1>Care Center</h1>
+        <p> Lorem Ipsum available, but the majority have 
+          suffered alteration in some form.</p>
+      </div>
+      <div class="row justify-content-evenly" id="care-section-img">
+        <div class="col-md-3 care-wrap">
+          <img src="images/white_dog1.jpg" alt="Care image one" class="img-fluid">
+          <div class="row justify-content-evenly">
+            <div class="col-md-10 care-info" >
+              <h3 class="text-center">Veterinarian</h3>
+              <p> Lorem Ipsum available, but
+                the majority have suffered
+                alteration in some.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3  care-wrap">
+          <img src="images/white_dog2.jpg" alt="care image two" class="img-fluid">
+          <div class="row justify-content-evenly">
+            <div class="col-md-10 text-white care-info" >
+              <h3 class="text-center">Vaccination Care</h3>
+              <p> Lorem Ipsum available, but
+                the majority have suffered
+                alteration in some.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3  care-wrap">
+          <img src="images/white_dog3.jpg" alt="care image three" class="img-fluid">
+          <div class="row justify-content-evenly">
+            <div class="col-md-10 text-white care-info" >
+              <h3 class="text-center">Dental Care</h3>
+              <p> Lorem Ipsum available, but
+                the majority have suffered
+                alteration in some.</p>
+            </div>
+          </div>
+        </div>
+      </div>    
+     </div>
+     <!-- Care section ends here  -->
+     <!-- Vet care section starts here  -->
+     <div class="row justify-content-center">
+      <div class="col-md-10 text-center" id="vet-care">
+        <h1>The Vetcare Team</h1>
+        <p> Lorem Ipsum available, but the majority have
+          suffered alteration in some form.</p>
+      </div>
+      <div class="row justify-content-evenly">
+        <div class="col-md-3">
+          <img src="images/lady_doc.jpg" alt="" class="img-fluid vet-img">
+          <div class="row justify-content-evenly vet-info">
+            <div class="col-md-10 text-center">
+              <h4>Jennifer Mullen</h4>
+              <h5>Veterinary</h5>
+              <img src="images/Instagram.png" alt="" class="img-fluid">
+              <img src="images/Facebook.png" alt="" class="img-fluid">
+              <img src="images/Twitter.png" alt="" class="img-fluid">
+              <img src="images/WhatsApp.png" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <img src="images/lady-doc2.jpg" alt="" class="img-fluid vet-img">
+          <div class="row justify-content-evenly vet-info">
+            <div class="col-md-10 text-center">
+              <h4>Sheeren Collins</h4>
+              <h5>Administration</h5>
+              <img src="images/Instagram.png" alt="" class="img-fluid">
+              <img src="images/Facebook.png" alt="" class="img-fluid">
+              <img src="images/Twitter.png" alt="" class="img-fluid">
+              <img src="images/WhatsApp.png" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <img src="images/lady-doc3.jpg" alt="" class="img-fluid vet-img">
+          <div class="row justify-content-evenly vet-info">
+            <div class="col-md-10 text-center">
+              <h4>Jennifer Mullen</h4>
+              <h5>Veterinary</h5>
+              <img src="images/Instagram.png" alt="" class="img-fluid">
+              <img src="images/Facebook.png" alt="" class="img-fluid">
+              <img src="images/Twitter.png" alt="" class="img-fluid">
+              <img src="images/WhatsApp.png" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+     <!-- Vet care section ends here  -->
+     <!-- Recent section starts here  -->
+     <div class="row justify-content-center">
+      <div class="col-md-10 text-center" id="recent-text">
+        <h1>Recent Posts</h1>
+        <p> Lorem Ipsum available, but the majority have
+          suffered alteration in some form.</p>
+      </div>
+      <div class="row justify-content-evenly">
+        <div class="col-md-3 recent-img">
+          <img src="images/recent-img1.png" alt="" class="img-fluid">
+          <div class="row">
+            <div class="col-md-12 justify-content-evenly">
+              <div class="card mb-2 " style="width: 100%;">
+                <div class="card-body">
+                  <h5 class="card-title">As a veterinarian and
+                    lover of animals</h5>
+                    <p class="date">July 11, 2023</p>
+                  <p class="card-text">Lorem Ipsum available, but the majo
+                    rity have suffered.</p>
+                  <a href="#" class="btn recent-btn">Read more+</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 recent-img">
+          <img src="images/recent-img2.png" alt="" class="img-fluid">
+          <div class="row">
+            <div class="col-md-12 justify-content-evenly">
+              <div class="card mb-2 " style="width: 100%;">
+                <div class="card-body">
+                  <h5 class="card-title">As a veterinarian and
+                    lover of animals</h5>
+                    <p class="date">July 11, 2023</p>
+                  <p class="card-text">Lorem Ipsum available, but the majo
+                    rity have suffered.</p>
+                  <a href="#" class="btn recent-btn" >Read more+</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 recent-img">
+          <img src="images/recent-img3.png" alt="" class="img-fluid">
+          <div class="row">
+            <div class="col-md-12 justify-content-evenly">
+              <div class="card mb-2 " style="width: 100%;">
+                <div class="card-body">
+                  <h5 class="card-title">As a veterinarian and
+                    lover of animals</h5>
+                    <p class="date">July 11, 2023</p>
+                  <p class="card-text">Lorem Ipsum available, but the majo
+                    rity have suffered.</p>
+                  <a href="#" class="btn recent-btn">Read more+</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+     <!-- Recent section ends here  -->
+     <!-- Footer section starts here  -->
+     <div class="row justify-content-evenly bg-secondary text-white" id="footer-section">
+      <div class="col-md-3 footer-info">
+        <h4 class="mt-2">About</h4>
+        <a href="#" class="text-decoration-none link-light">History</a> <br>
+        <a href="#" class="text-decoration-none link-light">Our Team</a> <br>
+        <a href="#" class="text-decoration-none link-light">Brand Guidlines</a> <br>
+        <a href="#" class="text-decoration-none link-light">Terms</a> <br>
+        <a href="#" class="text-decoration-none link-light">Privacy Policy</a> <br>
+      </div>
+      <div class="col-md-3 footer-info">
+        <h4 class="mt-2">Services</h4>
+        <a href="#" class="text-decoration-none link-light">How to Order</a> <br>
+        <a href="#" class="text-decoration-none link-light">Our Products</a> <br>
+        <a href="#" class="text-decoration-none link-light">Our Status</a> <br>
+        <a href="#" class="text-decoration-none link-light">Promo</a> <br>
+        <a href="#" class="text-decoration-none link-light">Payment Method</a> <br>
+      </div>
+      <div class="col-md-3 text-end footer-info" id="footer-right">
+        <h4 class="mt-3">Title Here</h4>
+        <p>Lorem ipsum available, but the majorit.</p>
+        <span id="footer-span">
+          <img src="images/arrow-icon.png" alt="" class="img-fluid"  id="footer-icon">
+        </span>
+         <br>
+         <img src="images/Instagram.png" alt="" class="img-fluid footer-social">
+         <img src="images/Facebook.png" alt="" class="img-fluid footer-social">
+         <img src="images/Twitter.png" alt="" class="img-fluid footer-social">
+         <img src="images/WhatsApp.png" alt="" class="img-fluid footer-social">
+      </div>
+     </div>
+     <!-- Footer section ends here  -->
+      </div>
+      <!-- Container ends here  -->
+    <!-- Bootstrap js cdn link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
